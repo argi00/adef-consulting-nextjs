@@ -54,9 +54,7 @@ export default function Header() {
               {n.label}
             </a>
           ))}
-          <a className="btn btn-primary nav-cta-mobile" href="#contact" onClick={() => setMobileOpen(false)}>
-            Nous contacter <span className="arr">→</span>
-          </a>
+          
         </nav>
         <div className="nav-cta">
           <a className="btn btn-primary" href="#contact">Nous contacter <span className="arr">→</span></a>
