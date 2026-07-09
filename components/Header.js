@@ -59,7 +59,7 @@ export default function Header() {
           </a>
         </nav>
         <div className="nav-cta">
-          #<a className="btn btn-primary" href="#contact">Nous contacter <span className="arr">→</span></a>
+          <a className="btn btn-primary" href="#contact">Nous contacter <span className="arr">→</span></a>
         </div>
         <button
           className="nav-toggle"
