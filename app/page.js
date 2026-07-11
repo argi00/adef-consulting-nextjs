@@ -299,8 +299,7 @@ export default function Home() {
               <h5>Contact</h5>
               <ul>
                 <li>BP 11808 Dakar-Peytavin</li>
-                <li>+221 836 49 22</li>
-                <li>+221 646 07 05</li>
+                <li>+221 33 845 07 10</li>
                 <li><a href="mailto:adefconsulting@gmail.com">adefconsulting@gmail.com</a></li>
               </ul>
             </div>
