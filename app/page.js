@@ -16,6 +16,7 @@ export default function Home() {
       <main>
 
         {/* ============ HERO ============ */}
+         {/* ============ HERO ============ */} {/* ============ HERO ============ */}
         <section className="hero">
           <div className="wrap hero-grid">
             <div className="hero-copy">
