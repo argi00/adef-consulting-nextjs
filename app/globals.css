@@ -368,6 +368,13 @@ section[id] { scroll-margin-top: 84px; }
     text-align: center;
   }
   .stat .lab { max-width: none; font-size: 11px; line-height: 1.35; }
+  .flags {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px 14px;
+    width: 100%;
+  }
+  .flags span { justify-content: center; }
   .marquee-band .label { display: none; }
 }
 
