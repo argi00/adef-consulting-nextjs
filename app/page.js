@@ -258,7 +258,7 @@ export default function Home() {
                 </div>
                 <div className="ci-row">
                   <div className="ci-ic">☎</div>
-                  <div><div className="ci-k">Téléphone / Fax</div><div className="ci-v"><a href="tel:+2218364922">+221 836 49 22</a> · Mobile <a href="tel:+2216460705">+221 646 07 05</a></div></div>
+                  <div><div className="ci-k">Téléphone / Fax</div><div className="ci-v"><a href="tel:+221 338450710">+221 836 49 22</a> · Mobile <a href="tel:+2216460705">+221 646 07 05</a></div></div>
                 </div>
                 <div className="ci-row">
                   <div className="ci-ic">✉</div>
