@@ -144,6 +144,7 @@ img { display: block; max-width: 100%; }
   margin-top: 48px;
   padding-top: 30px;
   border-top: 1px solid var(--line);
+  grid-column: 1 / -1 ;               
 }
 .stat {
   min-width: 0;
@@ -157,7 +158,7 @@ img { display: block; max-width: 100%; }
   text-align: center;
 }
 .stat .num { font-family: var(--serif); font-size: clamp(28px, 4vw, 40px); font-weight: 600; color: var(--red); line-height: 1; }
-.stat .lab { font-size: 13px; color: var(--muted); margin-top: 8px; max-width: 16ch; }
+.stat .lab { font-size: 13px; color: var(--muted); margin-top: 8px; max-width: 16ch;   text-align: center;}
 
 .hero-visual { position: relative; }
 .hero-visual .ph { aspect-ratio: 4/5; border-radius: 8px; }
