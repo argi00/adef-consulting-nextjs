@@ -37,7 +37,15 @@ export default function Home() {
               </div>
             </div>
             <div className="hero-visual">
-              <div className="ph" data-label="PHOTO — équipe en mission / atelier de formation"></div>
+              <div className="ph">
+                <Image
+                  src="/WhatsApp Image 2026-07-11 at 1.59.45 PM.jpeg"
+                  alt="Équipe en mission"
+                  fill
+                  priority
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
               <div className="hero-badge">
                 <div className="k">Une équipe pluridisciplinaire</div>
                 <div className="v">Au service des organisations publiques, privées et de la société civile.</div>
@@ -67,7 +75,14 @@ export default function Home() {
               <p className="intro-quote">« Le cabinet intervient dans les domaines des Études-Recherches, de l'Appui-Conseil-Accompagnement aux Collectivités Territoriales et de la Formation. »</p>
             </Reveal>
             <Reveal className="intro-figure">
-              <div className="ph" data-label="PHOTO — atelier participatif / terrain"></div>
+              <div className="ph">
+                <Image
+                  src="/WhatsApp Image 2026-07-11 at 2.00.12 PM.jpeg"
+                  alt="Atelier participatif sur le terrain"
+                  fill
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </Reveal>
           </div>
 
