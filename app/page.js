@@ -296,6 +296,77 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      <style>{`
+        .hero-copy {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .hero-stats {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: clamp(18px, 3vw, 36px);
+          width: min(100%, 620px);
+          margin-inline: auto;
+          align-self: center;
+          margin-top: 48px;
+          padding-top: 30px;
+          border-top: 1px solid var(--line);
+        }
+
+        .stat {
+          min-width: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        .stat .num {
+          width: 100%;
+          text-align: center;
+        }
+
+        .stat .lab {
+          font-size: 13px;
+          color: var(--muted);
+          margin-top: 8px;
+          max-width: 16ch;
+          text-align: center;
+        }
+
+        .flags {
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 10px 22px;
+          width: 100%;
+        }
+
+        @media (max-width: 640px) {
+          .hero-stats {
+            width: 100%;
+            gap: 12px;
+          }
+
+          .stat .lab {
+            max-width: none;
+            font-size: 11px;
+            line-height: 1.35;
+          }
+
+          .flags {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 10px 14px;
+          }
+
+          .flags span {
+            justify-content: center;
+          }
+        }
+      `}</style>
     </>
   );
 }
